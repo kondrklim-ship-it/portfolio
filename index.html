@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио Климентия</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ===== ШАПКА ===== -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Логотип Климентия">
+            <span>Кондратьев Климентий Вячеславович</span>
+        </div>
+        <nav>
+            <a href="#about">Обо мне</a>
+            <a href="#skills">Навыки</a>
+            <a href="#projects">Проекты</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+    </header>
+
+    <!-- ===== ОСНОВНОЙ КОНТЕНТ ===== -->
+    <main>
+        <!-- HERO -->
+        <section id="hero">
+            <div class="hero-content">
+                <img src="images/avatar.png" alt="Фото Климентия" class="hero-photo">
+                <h1>Привет, я Климентий — начинающий веб-разработчик</h1>
+                <p>Изучаю HTML, CSS, JavaScript и Python, чтобы создавать удобные и красивые сайты. Люблю разбираться в новом и воплощать идеи в коде.</p>
+                <a href="#contacts" class="btn">Связаться со мной</a>
+            </div>
+        </section>
+
+        <!-- ОБО МНЕ -->
+        <section id="about">
+            <div class="container">
+                <h2>Обо мне</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Меня зовут Климентий, мне 30 лет, и я решил кардинально изменить свою жизнь — перейти в мир IT и программирования. Уже год я самостоятельно изучаю Python, пробую писать простые программы и всё больше убеждаюсь, что хочу связать с разработкой свою карьеру.</p>
+                        <p>Мой путь начался с бесплатных курсов и маленьких скриптов, а теперь я осваиваю веб-разработку: HTML, CSS и JavaScript. Верю, что усердие и ежедневная практика приведут к цели — стать профессиональным разработчиком и создавать полезные, красивые продукты.</p>
+                        <p>В свободное время люблю разбираться в новых технологиях, читать книги по саморазвитию и экспериментировать с кодом. Моя суперсила — не сдаваться, даже когда что-то не получается с первого раза.</p>
+                    </div>
+                    <div class="about-details">
+                        <h3>Немного фактов:</h3>
+                        <ul>
+                            <li>🎓 Учусь на Stepik + самостоятельно</li>
+                            <li>🐍 Python — мой первый язык программирования</li>
+                            <li>🌐 Сейчас активно изучаю веб-технологии</li>
+                            <li>☕ Кофе — топливо для ночных сессий кодинга</li>
+                            <li>🎯 Цель на год: сверстать 5 проектов и найти работу junior-разработчиком</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- НАВЫКИ -->
+        <section id="skills">
+            <div class="container">
+                <h2>Мои навыки</h2>
+                <div class="skills-grid">
+                    <!-- Карточка 1 -->
+                    <article class="skill-card">
+                        <span class="skill-icon">🖥️</span>
+                        <h3>HTML / CSS</h3>
+                        <p>Семантическая вёрстка, Flexbox, Grid, адаптивный дизайн, анимации.</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 70%;">70%</div>
+                        </div>
+                    </article>
+                    <!-- Карточка 2 -->
+                    <article class="skill-card">
+                        <span class="skill-icon">🐍</span>
+                        <h3>Python</h3>
+                        <p>Основы синтаксиса, функции, работа с файлами, написание простых программ.</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 50%;">50%</div>
+                        </div>
+                    </article>
+                    <!-- Карточка 3 -->
+                    <article class="skill-card">
+                        <span class="skill-icon">⚙️</span>
+                        <h3>JavaScript (изучаю)</h3>
+                        <p>Переменные, циклы, DOM, события. Активно учусь по мере создания проектов.</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 20%;">20%</div>
+                        </div>
+                    </article>
+                    <!-- Карточка 4 -->
+                    <article class="skill-card">
+                        <span class="skill-icon">🔧</span>
+                        <h3>Инструменты</h3>
+                        <p>VS Code, Git (изучаю), базовый Linux, Figma (осваиваю).</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 40%;">40%</div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ПРОЕКТЫ -->
+        <section id="projects">
+            <div class="container">
+                <h2>Мои проекты</h2>
+                <div class="projects-grid">
+                    <!-- Проект 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/project1.jpg" alt="Игра Угадай число" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="project-placeholder" style="display: none;">🎲</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Угадай число</h3>
+                            <p>Консольная игра на Python. Компьютер загадывает число, а игрок отгадывает с подсказками.</p>
+                            <a href="#" class="btn-small">Смотреть код</a>
+                        </div>
+                    </article>
+                    <!-- Проект 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/project2.jpg" alt="Кофейное меню" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="project-placeholder" style="display: none;">☕</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Кофейное меню</h3>
+                            <p>Страница меню кофейни. Свёрстана на HTML и CSS с красивым дизайном и карточками напитков.</p>
+                            <a href="#" class="btn-small">Смотреть код</a>
+                        </div>
+                    </article>
+                    <!-- Проект 3 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/project3.jpg" alt="Сайт-портфолио" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="project-placeholder" style="display: none;">🌐</div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Сайт-портфолио</h3>
+                            <p>Этот сайт. Создан с нуля на HTML и CSS как учебный проект и живое резюме.</p>
+                            <a href="#" class="btn-small">Смотреть код</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- КОНТАКТЫ -->
+        <section id="contacts">
+            <div class="container">
+                <h2>Свяжитесь со мной</h2>
+                <div class="contacts-content">
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" name="name" placeholder="Иван Иванов" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="ivan@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Здравствуйте, Климентий..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Отправить</button>
+                    </form>
+                    <div class="contact-links">
+                        <h3>Я в сети:</h3>
+                        <div class="social-icons">
+                            <a href="https://github.com/твой-юзернейм" target="_blank" class="social-link" title="GitHub">
+                                <span>🐙 GitHub</span>
+                            </a>
+                            <a href="https://t.me/твой-юзернейм" target="_blank" class="social-link" title="Telegram">
+                                <span>✈️ Telegram</span>
+                            </a>
+                            <a href="mailto:твой-email@example.com" class="social-link" title="Email">
+                                <span>📧 Email</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== ПОДВАЛ ===== -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Кондратьев Климентий. Создано с ❤️ на HTML и CSS.</p>
+        </div>
+    </footer>
+</body>
+</html>
